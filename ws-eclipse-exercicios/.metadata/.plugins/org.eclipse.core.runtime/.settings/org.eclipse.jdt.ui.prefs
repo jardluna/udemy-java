@@ -5,7 +5,6 @@ eclipse.preferences.version=1
 enclosingBrackets=true
 highlightBracketAtCaretLocation=true
 org.eclipse.jdt.ui.formatterprofiles.version=23
-smart_semicolon=true
 sourceHoverBackgroundColor=47,47,47
 spelling_locale_initialized=true
 typefilter_migrated_2=true
