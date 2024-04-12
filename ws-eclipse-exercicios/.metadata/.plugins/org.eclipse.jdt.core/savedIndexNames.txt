@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\mathe\OneDrive\Documentos\Material dos Cursos\udemy-java\ws-eclipse-exercicios\.metadata\.plugins\org.eclipse.jdt.core
+1096685508.index
+1865797976.index
+937586228.index
