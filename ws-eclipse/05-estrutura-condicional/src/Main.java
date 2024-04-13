@@ -10,11 +10,11 @@ public class Main {
 		int hora = sc.nextInt();
 		
 		if (hora >= 6 && hora <= 11) {
-			System.out.println("Bom dia");
+			System.out.println("Bom dia"); //BLOCO 1
 		} else if (hora >= 12 && hora <= 18) {
-			System.out.println("Boa tarde");
-		} else if (hora >= 19){
-			System.out.println("Boa noite");
+			System.out.println("Boa tarde"); //BLOCO 2
+		} else {
+			System.out.println("Boa noite"); //BLOCO 3
 		}
 		
 		sc.close();
