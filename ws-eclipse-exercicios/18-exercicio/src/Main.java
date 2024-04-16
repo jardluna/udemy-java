@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		//Exercício 1 sobre estrutura repetitiva for 
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Começa no: ");
