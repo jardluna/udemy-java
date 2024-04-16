@@ -20,7 +20,6 @@ public class Main {
 		for (int i1 = 0; i1 < 5; i1++) {
 			System.out.println("Valor de i: " + i1);
 		}
-		
 		System.out.println("");
 		
 		System.out.println("Ordem Decrescente");
