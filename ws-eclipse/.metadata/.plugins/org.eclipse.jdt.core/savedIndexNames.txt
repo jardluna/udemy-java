@@ -2,6 +2,7 @@ INDEX VERSION 1.134+C:\Users\mathe\OneDrive\Documentos\Material dos Cursos\udemy
 1608528671.index
 2345407980.index
 3526717330.index
+2552531584.index
 3858330252.index
 4201429641.index
 2841418150.index
@@ -15,4 +16,5 @@ INDEX VERSION 1.134+C:\Users\mathe\OneDrive\Documentos\Material dos Cursos\udemy
 3890594397.index
 122231037.index
 2594246389.index
+3295016985.index
 1865797976.index
