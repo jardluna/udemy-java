@@ -3,7 +3,8 @@
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entities.Rectangle"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="entities.Employee"/>
     <fullyQualifiedTypeName name="entities.Student"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entities.CurrencyConverter"/>
 </qualifiedTypeNameHistroy>
