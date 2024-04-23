@@ -11,6 +11,8 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		Account acc = new Account();
 		
+		System.out.println("****** LUNA BANK ******");
+		System.out.println();
 		System.out.print("Enter account number: ");
 		int number = sc.nextInt();
 		System.out.print("Enter account holder: ");
@@ -56,6 +58,7 @@ public class Program {
 		System.out.println("Account data:");
 		System.out.println(acc);
 		System.out.println();
+		System.out.println("($5 fee per withdrawal)");
 		System.out.print("Enter a WITHDRAW value: $");
 		double withdraw = sc.nextDouble();
 		acc.withdraw(withdraw);
@@ -77,6 +80,7 @@ public class Program {
 				acc.deposit(deposit);
 			}
 			else if(responseDW == 'w' || responseDW == 'W') {
+				System.out.println("($5 fee per withdrawal)");
 				System.out.print("Enter a WITHDRAW value: $");
 				withdraw = sc.nextDouble();
 				acc.withdraw(withdraw);
