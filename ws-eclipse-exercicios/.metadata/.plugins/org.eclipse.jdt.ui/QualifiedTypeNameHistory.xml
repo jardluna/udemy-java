@@ -9,8 +9,11 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="entities.Negative"/>
     <fullyQualifiedTypeName name="entities.Soma"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="entities.Alturas"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entities.Pares"/>
+    <fullyQualifiedTypeName name="entities.Posicao"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="entities.SomasA"/>
+    <fullyQualifiedTypeName name="entities.Soma_vectB"/>
 </qualifiedTypeNameHistroy>
