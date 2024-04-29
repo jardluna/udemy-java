@@ -12,8 +12,10 @@
     <fullyQualifiedTypeName name="entities.Alturas"/>
     <fullyQualifiedTypeName name="entities.Pares"/>
     <fullyQualifiedTypeName name="entities.Posicao"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entities.SomasA"/>
     <fullyQualifiedTypeName name="entities.Soma_vectB"/>
+    <fullyQualifiedTypeName name="entities.Media"/>
+    <fullyQualifiedTypeName name="entities.Idade"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
