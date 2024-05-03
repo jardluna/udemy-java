@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="entities.Rectangle"/>
-    <fullyQualifiedTypeName name="entities.Employee"/>
     <fullyQualifiedTypeName name="entities.Student"/>
     <fullyQualifiedTypeName name="entities.CurrencyConverter"/>
     <fullyQualifiedTypeName name="entities.Account"/>
@@ -16,7 +15,8 @@
     <fullyQualifiedTypeName name="entities.Soma_vectB"/>
     <fullyQualifiedTypeName name="entities.Media"/>
     <fullyQualifiedTypeName name="entities.Idade"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="entities.Rent"/>
+    <fullyQualifiedTypeName name="entities.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>
