@@ -14,7 +14,7 @@ public class Program {
 		List<Employee> list = new ArrayList<>();
 		Employee emp = new Employee();
 		
-		System.out.print("How many employee will be registered?");
+		System.out.print("How many employee will be registered? ");
 		int n = sc.nextInt();
 		System.out.println();
 		
@@ -33,7 +33,7 @@ public class Program {
 		
 		System.out.println("*Enter the employee Id that will ");
 		System.out.print("have salary increase: ");
-		Integer id = sc.nextInt();
+		int id = sc.nextInt();
 		emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
 		if(emp == null) {
 			System.out.println("*This is does not exist!");
