@@ -5,18 +5,18 @@ public class Employee {
 	//ATTRIBUTES
 	private Integer id;
 	private String name;
-	private String sobrenome;
 	private Double salary;
+	
+	public static int num;
 	
 	//CONSTRUCTOR
 	public Employee() {
 		
 	}
 	
-	public Employee(Integer id, String name, String sobrenome, Double salary) {
+	public Employee(Integer id, String name, Double salary) {
 		this.id = id;
 		this.name = name;
-		this.sobrenome = sobrenome;
 		this.salary = salary;
 	}
 	
@@ -51,14 +51,13 @@ public class Employee {
 	}
 	
 	//FORMAT
+	@Override
 	public String toString() {
 		return id +
 				", " +
 				name.toUpperCase().charAt(0) + name.substring(1) +
-				" " +
-				sobrenome.toUpperCase().charAt(0) + sobrenome.substring(1) +
 				", " +
-				String.format("%.2f", salary);
+				String.format("$%.2f", salary);
 	}
 }
 
