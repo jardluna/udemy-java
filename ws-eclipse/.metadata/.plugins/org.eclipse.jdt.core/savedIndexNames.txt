@@ -23,11 +23,12 @@ INDEX VERSION 1.134+C:\Users\mathe\OneDrive\Documentos\Material dos Cursos\udemy
 3227404593.index
 4201429641.index
 2841418150.index
-3021753986.index
 3295016985.index
+3021753986.index
 1110274931.index
 1865797976.index
 3526717330.index
+1439268645.index
 710200237.index
 682982664.index
 1720740245.index
