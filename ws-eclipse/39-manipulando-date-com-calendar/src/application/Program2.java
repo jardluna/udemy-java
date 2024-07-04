@@ -23,11 +23,13 @@ public class Program2 {
 		
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(d);
-		int minutes = cal.get(Calendar.MINUTE);
-		int month = 1 + cal.get(Calendar.MONTH);
+		int minutes = cal.get(Calendar.MINUTE);//MINUTOS DA DATA
+		int month = 1 + cal.get(Calendar.MONTH);//MÊS DA DATA
+		int year = cal.get(Calendar.YEAR);
 		
 		System.out.println("Minutes: " + minutes);
 		System.out.println("Month: " + month);
+		System.out.println("Year: " + year);
 
 	}
 
