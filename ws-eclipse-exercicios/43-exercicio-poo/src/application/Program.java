@@ -51,7 +51,7 @@ public class Program {
 		System.out.printf("**Enter the employee Id that will have %nsalary increase: ");
 		int idSalary = sc.nextInt();
 		Integer pos = position(list, idSalary);
-		//Método de classe auxiliar para chegar se o Id é repetido
+		//Método de classe auxiliar para checar se o Id existe
 		if(pos == null) {
 			System.out.println("**This is does not exist!");
 		}
@@ -62,7 +62,7 @@ public class Program {
 		}
 		
 		/*
-		//Método local, utilizando expressão lambda para chegar se o Id é repetido
+		//Método local, utilizando expressão lambda para chegar se o Id é existe
 		emp = list.stream().filter(x -> x.getId() == idSalary).findFirst().orElse(null);
 		if(emp == null) {
 			System.out.println("**This is does not exist!");
