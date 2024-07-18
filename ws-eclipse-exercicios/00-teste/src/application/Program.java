@@ -1,26 +1,28 @@
 package application;
 
-import java.util.Scanner;
-
-import entities.Test;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Program {
 	
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("***** TESTE *****");
-		System.out.println();
+		List<Integer> num = new ArrayList<>();
 		
-		System.out.print("Qual o valor da variavel: ");
-		int num = sc.nextInt();
-		Test ts = new Test(num + 5);
-		System.out.println();
+		num.add(1);
+		num.add(2);
+		num.add(3);
+		num.add(4);
+		num.add(5);
+		num.add(6);
+		num.add(7);
 		
+		for(Integer c : num) {
+			if(c % 2 == 0) {
+				System.out.println(c);
+			}
+		}
 		
-		System.out.println(ts.getNum());
-		
-		sc.close();
 	}
 }
 
