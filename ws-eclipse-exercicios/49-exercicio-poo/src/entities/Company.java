@@ -1,4 +1,4 @@
-package entities;
+ package entities;
 
 public class Company extends TaxPayer {
 
@@ -23,13 +23,13 @@ public class Company extends TaxPayer {
 	
 	@Override
 	public final double tax() {
-		double sum = 0.0;
-		if(numberOfEmployees <= 10) {
-			sum = anualIncome * 0.16;
+		double taxTotalComp = 0.0; //TAX TOTAL COMPANY
+		if(numberOfEmployees > 10) {
+			taxTotalComp = anualIncome * 0.14;
 		} else {
-			sum = anualIncome * 0.14;
+			taxTotalComp = anualIncome * 0.16;
 		}
-		return sum;
+		return taxTotalComp;
 	}
 	
 }
