@@ -1,23 +1,20 @@
 package teste1;
 
-import teste2.Entities;
+import java.util.Scanner;
 
 public class Application {
 
 	public static void main(String[] args) {
 		
-		Entities p1, p2;
+		Scanner sc = new Scanner(System.in);
 		
-		p1 = new Entities("TV", 900.00, 0);
-		System.out.println(p1);
+		String[] vect = sc.next().split(" ", 3);
 		
-		p2 = null;
-		System.out.println(p2);
+		for(String c : vect) {
+			System.out.println(c);
+		}
 		
-		p2 = new Entities("PC", 1500.00, 1);
-		System.out.println(p2);
-		
-		
+		sc.close();
 	}
 
 }
