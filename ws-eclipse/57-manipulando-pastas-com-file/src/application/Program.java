@@ -10,7 +10,8 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter a folder path:");
-		File path = new File(sc.nextLine());
+		String strPath = sc.nextLine();
+		File path = new File(strPath);
 		
 		System.out.println();
 		File[] folders = path.listFiles(File::isDirectory);// EXIBE AS PASTAS DO CAMINHO ESPECIFICADO
