@@ -39,7 +39,7 @@ public class Alturas {
 		return altura;
 	}
 	
-	public void setNome(double altura) {
+	public void setAltura(double altura) {
 		this.altura = altura;
 	}
 }

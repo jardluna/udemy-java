@@ -21,8 +21,7 @@ public class Program {
 		int n = sc.nextInt();
 		System.out.println();
 		
-		Alturas[] vectC = new Alturas[n]; //VETOR DE REFERENCIA
-		//double[] vectP = new double[n]; //VETOR DE VALOR
+		Alturas[] vectC = new Alturas[n];
 		double soma = 0.0;
 		double menor = 0.0;
 		double alturaMedia = 0.0;
